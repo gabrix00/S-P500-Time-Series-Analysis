@@ -1,6 +1,5 @@
 #Project Overview
 This project focuses on time series data analysis and forecasting, specifically aiming to:
-
 ## Assess if a process is stationary or not and apply transformations to achieve stationarity.
 * Identify and evaluate the presence of trend and seasonality in the data.
 * Identify appropriate models for forecasting.
