@@ -21,3 +21,6 @@ Data Exploration and Preprocessing:
 ## Model Evaluation:
 * Make one-day ahead predictions using each model.
 * valuate model performance using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+## Requirements
+Python 3.x 
+Libraries: pandas, numpy, statsmodels, xgboost, scikit-learn, matplotlib
