@@ -1,5 +1,29 @@
-# S&P500 Time Series Analysis
-Time Series Forcasting of S&amp;P500 Index through ARIMA model and its comparison with Xgboost and Persistance models.
+#Project Overview
+This project focuses on time series data analysis and forecasting, specifically aiming to:
 
-Overview
-This project aims to compare the performance of traditional statistical and modern machine learning models for time series forecasting, specifically focusing on one-day predictions. We will evaluate an ARIMA model, an XGBoost model, and a simple persistence model (assuming tomorrow will be like today) on a S&P500 Index time series dataset.
+## Assess if a process is stationary or not and apply transformations to achieve stationarity.
+* Identify and evaluate the presence of trend and seasonality in the data.
+* Identify appropriate models for forecasting.
+* Compare the performance of traditional statistical models and modern machine learning models for one-day ahead predictions.
+## Models Evaluated
+* ARIMA (AutoRegressive Integrated Moving Average): A traditional statistical model used for time series forecasting.
+* XGBoost (Extreme Gradient Boosting): A powerful machine learning model that can be used for time series forecasting.
+* Persistence Model: A simple baseline model that assumes tomorrow's value will be the same as today's.
+
+##Steps and Methodology
+Data Exploration and Preprocessing:
+* Load and visualize the time series data.
+* Assess stationarity using tests like the Augmented Dickey-Fuller test.
+* Apply transformations if necessary (e.g., differencing) to achieve stationarity.
+* Decompose the time series to analyze trend and seasonality.
+  
+## Model Identification and Training:
+* Identify appropriate parameters for the ARIMA model.
+* Train the XGBoost model with relevant features.
+* Implement the persistence model.
+
+##Model Evaluation:
+* Make one-day ahead predictions using each model.
+* valuate model performance using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+  
+##Compare the results to determine the best performing model.
